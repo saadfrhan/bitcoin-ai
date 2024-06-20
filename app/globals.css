@@ -4,8 +4,13 @@
 
   @layer base {
     :root {
-      --background: 0 0% 100%;
-      --foreground: 224 71.4% 4.1%;
+      --background: 205, 100%, 9%;
+      --foreground: 0 0% 100%;
+
+      --nav-link: 0 0% 100%;
+      --nav-link-active: 184 100% 50%;
+
+      --bitcoin: 28 85% 54%;
 
       --card: 0 0% 100%;
       --card-foreground: 224 71.4% 4.1%;
@@ -29,6 +34,8 @@
       --destructive-foreground: 210 20% 98%;
 
       --border: 220 13% 91%;
+      --primary-border: 184 100% 50%;
+
       --input: 220 13% 91%;
       --ring: 224 71.4% 4.1%;
 

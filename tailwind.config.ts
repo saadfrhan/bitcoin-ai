@@ -20,6 +20,7 @@ const config = {
     extend: {
       colors: {
         border: "hsl(var(--border))",
+        "primary-border": "hsl(var(--primary-border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
@@ -52,6 +53,15 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "nav-link": {
+          DEFAULT: "hsl(var(--nav-link))",
+        },
+        "nav-link-active": {
+          DEFAULT: "hsl(var(--nav-link-active))",
+        },
+        "bitcoin": {
+          DEFAULT: "hsl(var(--bitcoin))",
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -72,6 +82,16 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, rgba(0, 25, 41, 0.18) 0%, rgba(0, 240, 255, 0.18) 100%)',
+        'bitcoinai-gradient': 'linear-gradient(270deg, #FFFFFF 67.99%, #00F0FF 100%)',
+        'hero-pattern': "url('/images/hero.png')",
+      },
+      fontFamily: {
+          "cooper-hewitt": ['var(--font-cooper-hewitt)'],
+          "sf-transrobotics": ['var(--font-sf-transrobotics)'],
+          "poppins": ['var(--font-poppins)'],
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
