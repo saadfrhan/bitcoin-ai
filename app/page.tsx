@@ -11,8 +11,8 @@ export default function Home() {
         <div className="mx-auto w-full px-8 max-w-[110rem] md:py-0 max-md:p-4 grid grid-cols-[1fr_1.5fr] max-xl:grid-cols-1">
           <div className="space-y-3 max-md:text-center">
             <h1 className="font-sf-transrobotics text-[120px] max-md:text-[80px] font-normal tracking-[3%] leading-[125.64px] max-md:leading-[80px]">
-              <span className="text-bitcoin">Bitcoin</span>
-              <span className="text-nav-link-active">AI</span>
+              <span className="text-bitcoin font-normal">Bitcoin</span>
+              <span className="text-nav-link-active font-normal">AI</span>
             </h1>
             <h2 className="font-sf-transrobotics text-[70px] font-normal tracking-[3%] leading-[73px] max-md:text-[40px] max-md:leading-[43px]">
               A New Symbol of{" "}
