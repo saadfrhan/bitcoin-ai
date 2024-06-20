@@ -10,11 +10,11 @@ export default function Home() {
       <div className="bg-[url('/images/hero.png')] relative bg-no-repeat bg-[center_center] bg-cover h-[110dvh] ">
         <div className="mx-auto w-full px-8 max-w-[110rem] md:py-0 max-md:p-4 grid grid-cols-[1fr_1.5fr] max-xl:grid-cols-1">
           <div className="space-y-3 max-md:text-center">
-            <h1 className="font-sf-transrobotics text-[120px] max-md:text-[80px] font-bold leading-[120px] max-md:leading-[80px]">
+            <h1 className="font-sf-transrobotics text-[120px] max-md:text-[80px] font-normal tracking-[3%] leading-[125.64px] max-md:leading-[80px]">
               <span className="text-bitcoin">Bitcoin</span>
               <span className="text-nav-link-active">AI</span>
             </h1>
-            <h2 className="font-sf-transrobotics font-normal text-[70px] leading-[73px] max-md:text-[40px] max-md:leading-[43px]">
+            <h2 className="font-sf-transrobotics text-[70px] font-normal tracking-[3%] leading-[73px] max-md:text-[40px] max-md:leading-[43px]">
               A New Symbol of{" "}
               <span className="text-nav-link-active">
                 Freedom and Empowerment
@@ -35,7 +35,7 @@ export default function Home() {
                   className="w-[72px] h-[72px] max-md:w-[48px] max-md:h-[48px]"
                 />
               </div>
-              <p className="font-[700] text-[32px] font-poppins max-md:text-[24px] max-md:leading-[32px] leading-[32px]">
+              <p className="font-[700] text-[32px] font-poppins tracking-[3%] max-md:text-[24px] max-md:leading-[32px] leading-[32px]">
                 &quot;GIVE ME YOUR TIRED, YOUR POOR, YOUR HUDDLED MASSES
                 YEARNING TO BE FREE... TO HODL $BitcoinAI.&quot;
               </p>
